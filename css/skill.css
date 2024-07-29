@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("../imag/bc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+header{
+  
+    padding: 0;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: right;
+    
+  }
+  ul{
+  padding: 0;
+}
+li{
+  display: inline-flex;
+  list-style-type: none;
+  text-align: right;
+  margin-right: 90px;
+  font-size:larger;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+li a{
+  text-decoration: none;
+  color:white;
+  
+}
+header ul li a:hover{
+  background-color: whitesmoke;
+  color: black;
+  padding: 3px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.con{
+   display:inline-flex;
+   flex-direction: column;
+}
+.con .tech{
+  font-family: Arial, Helvetica, sans-serif;
+  display:inline-block;
+  color: white;
+  margin-top: 2%;
+  padding: 20px;
+  margin-right: 0%;
+  font-size: large;
+  border:solid;
+  height: auto;
+  
+  margin-left: 5%;
+  border-radius: 30px;
+  border-style:groove;
+  padding: 3%;
+  box-shadow: 5px 3px 15px azure;
+  }
+  .he p{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 30px;
+    
+    
+  }
+  .pro li{
+    padding-top: 3px;
+  }
+
+  .pro{
+    list-style-type:upper-latin;
+   width: auto;
+   border:none;
+   padding: 10px;
+   line-height: 25px;
+   border-radius: 30px;
+   padding-left: 20px;
+  box-shadow: 5px 3px 15px rgb(158, 168, 168);
+backdrop-filter: blur(10px);
+  }
+  .pro:hover{
+    background-color: black;
+  }
+
+
+
+  .con .soft{
+    font-family: Arial, Helvetica, sans-serif;
+    display:inline-block;
+    color: white;
+    margin-top: 2%;
+    padding: 20px;
+    margin-right: 2%;
+    font-size: large;
+    border:solid;
+    height: 5%;
+    width: 50%;
+    margin-left: 5%;
+    border-radius: 30px;
+    border-style:groove;
+    padding: 3%;
+    box-shadow: 5px 3px 15px azure;
+    }
+    .pro:hover{
+      background-color: black;
+    }
+  
